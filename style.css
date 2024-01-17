@@ -1,5 +1,23 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body{
     background-image: url(images/coffee-beans-background.jpg);
     background-position: center center;
     background-size: cover;
+}
+
+img{
+    width: 25px;
+    height: auto;
+}
+
+.container{
+    background-color: rgba(195, 129, 84, 0.6);
+    width: 80%;
+    max-width: 500px;
+    margin:0 10%;
+    padding:10px 20px;
+
 }

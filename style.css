@@ -6,6 +6,7 @@ body{
     background-image: url(images/coffee-beans-background.jpg);
     background-position: center center;
     background-size: cover;
+    text-align: center;
 }
 
 img{
@@ -14,10 +15,26 @@ img{
 }
 
 .container{
-    background-color: rgba(195, 129, 84, 0.6);
+    background-color: rgba(223, 168, 120, 0.6);
     width: 80%;
     max-width: 500px;
     margin:0 10%;
     padding:10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    gap:36px;
+    margin:6px;
+}
+
+.name{
+    flex:2;
+}
+.price{
+    color: white;
 }

@@ -17,15 +17,15 @@ body{
 img{
     width: 25px;
     height: auto;
+    margin-bottom: 12px;
 }
 
 .container{
 
     background-color: rgba(223, 168, 120, 0.6);
-    padding:10px 20px;
     width: 80%;
     min-height: 100vh;
-    max-width: 600px;
+    max-width: 700px;
     margin-left: 10vh;
 
     display: flex;
@@ -37,7 +37,8 @@ img{
 .menu-item{
     display: flex;
     justify-content: space-between;
-    gap:36px;
+    gap:24px;
+    flex:1;
 
     margin:6px;
     font-size: 1.5em;
@@ -64,5 +65,9 @@ img{
 a{
     text-decoration: none;
     color:#CEE6F3;
+}
 
+a:hover{
+color: #6C3428;
+font-weight: bold;
 }

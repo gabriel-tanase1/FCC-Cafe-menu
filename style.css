@@ -40,18 +40,29 @@ img{
     gap:36px;
 
     margin:6px;
+    font-size: 1.5em;
 }
 
 .name{
     flex:2;
 }
 .price{
-    color: white;
+    color:#CEE6F3;
 }
 
 .coffee-menu,
 .desserts-menu{
-
+    margin:10px;
     border-top: solid 2px #6C3428;
+
+}
+
+.content{
+    flex:1;
+}
+
+a{
+    text-decoration: none;
+    color:#CEE6F3;
 
 }
